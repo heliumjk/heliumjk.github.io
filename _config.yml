@@ -22,22 +22,22 @@ post_limit: 5
 
 
 title : Atmosphere Technologies
-tagline: Bootstrap 4 UI kit for jekyll
+tagline: we breathe data
 author : 
-  name : Antonio Trento
-  site: https://lantoniotrento.github.io
+  name : Fred Estante
+  site: www.atmosphere.tech
   description : I&#39;m a web master interested in communication applied to web marketing.
   image : social-image.png
-  email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
-  facebook: lantoniotrento
-  linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
+  email : fred@atmosphere.tech
+  github : 
+  twitter : 
+  facebook: 
+  linkedin: 
+  instagram: 
+  pinterest: 
   feedburner : 
 
-twitter_username: lantoniotrento
+twitter_username: 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
