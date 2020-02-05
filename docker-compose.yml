@@ -1,0 +1,12 @@
+version: '3'
+services:
+  site:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose
+    volumes:
+      - .:/srv/jekyll
+      - bundle_cache:/usr/local/bundle
+    ports:
+      - 4000:4000
+volumes:
+  bundle_cache: # fica vazio assim mesmo
