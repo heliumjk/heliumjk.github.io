@@ -1,14 +1,14 @@
 ---
 layout: post teste
 category: lessons
-tagline: Supporting tagline
+tagline: tagline de teste
 tags:
 - intro
 - beginner
 - jekyll
-- tutorial
+- teste
 
 ---
 {% include JB/setup %}
 
-This is an example of a draft. Read more here: [http://jekyllrb.com/docs/drafts/](http://jekyllrb.com/docs/drafts/)
+Testando aqui 
