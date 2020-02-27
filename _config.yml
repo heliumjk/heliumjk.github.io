@@ -1,10 +1,11 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
 #permalink: /:categories/:year/:month/:day/:title
-#highlighter: null
-#markdown: kramdown
-#extensions: [fenced_code_blocks]
-#excerpt_separator: "<!--more-->"
+
+highlighter: null
+markdown: kramdown
+extensions: [fenced_code_blocks]
+excerpt_separator: "<!--more-->"
 url: https://estantef.github.io
 baseurl: "/estantef.github.io"
 # Themes are encouraged to use these universal variables
