@@ -25,7 +25,7 @@ lang: pt_BR
 author: 
   name: Fred Estante
   site: www.atmosphere.tech
-  description: 
+  description: A melhor plataforma de inteligência de mercado
   image: social-image.png
   email: fred@atmosphere.tech
   github: 
@@ -33,8 +33,6 @@ author:
   facebook: 
   linkedin: 
   instagram: 
-  pinterest: 
-  feedburner: 
 
 twitter_username: 
 # The production_url is only used when full-domain names are needed
