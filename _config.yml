@@ -7,7 +7,7 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://estantef.github.io
+url: https://estantef.githu b.io
 baseurl: "/estantef.github.io"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -148,3 +148,16 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+  
+  exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .gitignore
+  - README.md
+  - docker-compose.yml
+  
