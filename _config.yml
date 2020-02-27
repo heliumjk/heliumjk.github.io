@@ -21,8 +21,9 @@ post_limit: 5
 
 title : Atmosphere Data Technologies
 tagline: we breathe data
-author : 
-  name : Fred Estante
+lang: pt_BR
+author: 
+  name: Fred Estante
   site: www.atmosphere.tech
   description: 
   image: social-image.png
@@ -34,7 +35,6 @@ author :
   instagram: 
   pinterest: 
   feedburner: 
- lang: pt_BR
 
 twitter_username: 
 # The production_url is only used when full-domain names are needed
