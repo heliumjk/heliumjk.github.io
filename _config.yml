@@ -1,13 +1,12 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title
+#permalink: /:categories/:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://estantef.githu b.io
+url: https://estantef.github.io
 baseurl: "/estantef.github.io"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -21,21 +20,21 @@ google_ad_client: ca-pub-9204963049240271
 post_limit: 5
 
 
-title : atmosphere technologies
+title : Atmosphere Data Technologies
 tagline: we breathe data
 author : 
   name : Fred Estante
   site: www.atmosphere.tech
-  description : 
-  image : social-image.png
-  email : fred@atmosphere.tech
-  github : 
-  twitter : 
+  description: 
+  image: social-image.png
+  email: fred@atmosphere.tech
+  github: 
+  twitter: 
   facebook: 
   linkedin: 
   instagram: 
   pinterest: 
-  feedburner : 
+  feedburner: 
 
 twitter_username: 
 # The production_url is only used when full-domain names are needed
@@ -149,6 +148,9 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
   exclude:
   - Gemfile
   - Gemfile.lock
@@ -160,4 +162,5 @@ JB :
   - .gitignore
   - README.md
   - docker-compose.yml
-  
+ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+ 
