@@ -21,9 +21,10 @@ title: ''
 ---
 {% include JB/setup %}
 
-An example post about code insertion into posts.
+Testing this shit out, Houston.
 
 <!--more-->
+
 ## Testing code snippet highlight
 
 The following example shows how to highlight a piece of code throughout the use of Javascript:
@@ -32,21 +33,21 @@ The following example shows how to highlight a piece of code throughout the use 
 
     /*jshint browser: true, strict: true, undef: true */
     /*global define: false */
-
+    
     ( function( window ) {
-
+    
     'use strict';
-
+    
     // class helper functions from bonzo https://github.com/ded/bonzo
-
+    
     function classReg( className ) {
       return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
     }
-
+    
     // classList support for class management
     // altho to be fair, the api sucks because it won't accept multiple classes at once
     var hasClass, addClass, removeClass;
-
+    
     if ( 'classList' in document.documentElement ) {
       hasClass = function( elem, c ) {
         return elem.classList.contains( c );
@@ -71,12 +72,12 @@ The following example shows how to highlight a piece of code throughout the use 
         elem.className = elem.className.replace( classReg( c ), ' ' );
       };
     }
-
+    
     function toggleClass( elem, c ) {
       var fn = hasClass( elem, c ) ? removeClass : addClass;
       fn( elem, c );
     }
-
+    
     var classie = {
       // full names
       hasClass: hasClass,
@@ -89,7 +90,7 @@ The following example shows how to highlight a piece of code throughout the use 
       remove: removeClass,
       toggle: toggleClass
     };
-
+    
     // transport
     if ( typeof define === 'function' && define.amd ) {
       // AMD
@@ -98,7 +99,7 @@ The following example shows how to highlight a piece of code throughout the use 
       // browser global
       window.classie = classie;
     }
-
+    
     })( window );
 
 {% endhighlight %}
@@ -106,7 +107,6 @@ The following example shows how to highlight a piece of code throughout the use 
 ## Code highlighting with rounge and Prism
 
 Another snippet rendered with the CSS code syntax:
-
 
 ``` CSS
     @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic');
@@ -131,7 +131,8 @@ Another snippet rendered with the CSS code syntax:
         font-style: normal;
     }
 ```
-## Using snippet rendered with the HTML code syntax 
+
+## Using snippet rendered with the HTML code syntax
 
 ``` HTML
 
