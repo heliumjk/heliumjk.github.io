@@ -162,5 +162,6 @@ JB :
   - .gitignore
   - README.md
   - docker-compose.yml
+  - Rakefile
  #exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
  
