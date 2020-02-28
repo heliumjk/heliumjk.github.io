@@ -16,22 +16,16 @@ canonical: https://heliumjk.github.io/blog
 {% include JB/setup %}
 
 
-    {% for post in site.posts %}
-      {% assign author = site.authors | where:"identifier",post.author | first %}
-      <article class="blog__item article-media">
-        <a href="{{ post.permalink | relative_url }}" class="article-media__link"></a>
-        <div class="article-media__cover">
-          <img src="{{ post.image | relative_url }}" alt="blog post" class="article-media__img">
-          <div class="article-media__content">
-            <h3 class="article-media__title">{{ post.title }}</h3>
+{% for post in site.posts %}
+	  <div class="blog-block post-content-area">
+	   {% if post.img %}	  
+            <img src="{{ BASE_PATH }}/assets/images/{{ post.img }}" alt="{{ post.title }} image">
+	   {% endif %}	  
+            <div class="blog-post">
+              <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+	      <p>{{ post.excerpt }}</p>
+              <a class="btn btn-common" href="{{ BASE_PATH }}{{ post.url }}">Leia</a>
+            </div>
           </div>
-        </div>
-        <p class="article-media__text">{{ post.excerpt }}</p>
-        <div class="post-author">
-          <img src="{{ author.image | relative_url }}" alt="{{ author.name }}" class="post-author__img">
-          <div class="post-author__text">
-            <span class="post-author__text-head">por {{ author.name }}</span>
-          </div>
-        </div>
-      </article>
-    {% endfor%}
+	  <div class="mb-60"></div>
+{% endfor %}
