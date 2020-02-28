@@ -1,5 +1,5 @@
 ---
-layout: post teste
+layout: post
 category: lessons
 tagline: tagline de teste
 tags:
