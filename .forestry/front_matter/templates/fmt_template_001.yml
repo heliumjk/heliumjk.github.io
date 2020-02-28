@@ -1,0 +1,49 @@
+---
+label: FMT_Template_001
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: category
+  label: category
+- type: text
+  name: tagline
+  label: tagline
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: img
+  label: img
+- type: text
+  name: img2
+  label: img2
+- type: text
+  name: img3
+  label: img3
+- type: text
+  name: author
+  label: author
+- type: text
+  name: title2
+  label: title2
+- type: text
+  name: title3
+  label: title3
+- type: text
+  name: css
+  label: css
+- type: text
+  name: js
+  label: js
+- type: text
+  name: bgcolor
+  label: bgcolor
+- type: text
+  name: keywords
+  label: keywords
+- type: text
+  name: canonical
+  label: canonical
