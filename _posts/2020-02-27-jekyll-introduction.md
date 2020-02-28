@@ -7,6 +7,17 @@ tags:
 - beginner
 - jekyll
 - teste
+img: ''
+img2: ''
+img3: ''
+author: ''
+title2: ''
+title3: ''
+css: ''
+js: ''
+bgcolor: ''
+keywords: ''
+canonical: ''
 
 ---
 {% include JB/setup %}

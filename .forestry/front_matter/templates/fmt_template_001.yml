@@ -47,3 +47,5 @@ fields:
 - type: text
   name: canonical
   label: canonical
+pages:
+- _posts/2020-02-27-jekyll-introduction.md
