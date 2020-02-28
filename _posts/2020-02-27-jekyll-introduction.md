@@ -10,7 +10,7 @@ tags:
 img: ''
 img2: ''
 img3: ''
-author: ''
+author: fred
 title2: ''
 title3: ''
 css: ''
