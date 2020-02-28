@@ -2,12 +2,16 @@
 layout: blog
 title: Blog
 group: navigation
-tags : [blog, posts, post]
-author : Antonio Trento
+tags:
+- blog
+- posts
+- post
+author: Antonio Trento
 css: 
-js:
+js: 
 keywords: bootstrap4, UI kit, jekyll
 canonical: https://heliumjk.github.io/blog
+
 ---
 {% include JB/setup %}
 
@@ -20,9 +24,8 @@ canonical: https://heliumjk.github.io/blog
             <div class="blog-post">
               <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
 	      <p>{{ post.excerpt }}</p>
-              <a class="btn btn-common" href="{{ BASE_PATH }}{{ post.url }}">Read More</a>
+              <a class="btn btn-common" href="{{ BASE_PATH }}{{ post.url }}">Leia</a>
             </div>
           </div>
 	  <div class="mb-60"></div>
 {% endfor %}
-
