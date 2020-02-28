@@ -20,6 +20,6 @@ keywords: ''
 canonical: ''
 
 ---
-{% include JB/setup %}
+
 
 Testando aqui

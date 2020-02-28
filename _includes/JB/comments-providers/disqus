@@ -9,7 +9,7 @@
 {% if site.safe == false %}var disqus_developer = 1;{% endif %}
 
 var disqus_config = function () {
-this.page.url = {{ BASE_PATH }}{{ page.url }};  // Replace PAGE_URL with your page's canonical URL variable
+this.page.url = {{  page.url  | relative_url }};  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = {{ page.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 */

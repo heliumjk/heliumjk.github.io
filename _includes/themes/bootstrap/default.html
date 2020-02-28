@@ -1,65 +1,45 @@
 <!DOCTYPE html>
-<!--
-https://www.linkedin.com/in/antoniotrento/
-https://twitter.com/lantoniotrento
-lantoniotrento@gmail.com
--->
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ page.title }}</title>
     {% if page.tagline %}<meta name="description" content="{{ page.tagline }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">    
+    <meta name="author" content="{{ site.author.name }}">
     {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
     {% if page.canonical %}<link rel="canonical" href="{{ page.canonical }}"/>{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
 
     <!--Google Font link-->
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
  <!--Helium css-->
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/animate.css">
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/jasny-bootstrap.min.css">
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/main.css">
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/owl.carousel.css">
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/owl.theme.css">
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/responsive.css">
-        <link rel="stylesheet" href="{{ BASE_PATH }}/assets/css/scrolling-nav.css">	  
+        <link rel="stylesheet" href="{{ "/assets/css/animate.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/jasny-bootstrap.min.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/owl.carousel.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/owl.theme.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/responsive.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/scrolling-nav.css" | relative_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
-	<!-- CSS loaded by the children page -->
-        {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ BASE_PATH }}/assets/css/custom/{{ page.css }}" />{% endif %}
-
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.tagline }}">
-    <meta property="og:image" content="{{ BASE_PATH }}/assets/img/big/{{ page.img }}">
-    <meta property="og:url" content="{{ BASE_PATH }}">
-    <meta name="twitter:card" content="summary_large_image">
+        {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ "/assets/css/custom/" | append: page.css | relative_url }}" />{% endif %}
 
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
 		</script>
 	<![endif]-->
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href="{{  site.JB.atom_path  | relative_url }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{  site.JB.rss_path  | relative_url }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
     <!-- Google ADS mobile block-->
-    {% if site.google_ad_client %}
-    <script type="text/javascript" async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script type="text/javascript">
-     (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "{{ site.google_ad_client }}",
-        enable_page_level_ads: true
-        });
-    </script>
-    {% endif %}
   </head>
   <body>
-  <div class="wrapper">	  	  
-      <!--Home page style--> 
-      {% include themes/bootstrap/nav-bar.html %}  
+  <div class="wrapper">
+      <!--Home page style-->
+      {% include themes/bootstrap/nav-bar.html %}
       {{ content }}
 	  <br />
       {% include themes/bootstrap/footer.html %}
@@ -74,25 +54,25 @@ lantoniotrento@gmail.com
 
         <!-- JS includes -->
 
-        <script src="{{ BASE_PATH }}/assets/js/jquery.min.js"></script>
-        <script src="{{ BASE_PATH }}/assets/js/jquery.nav.js"></script>
-	<script src="{{ BASE_PATH }}/assets/js/owl.carousel.min.js"></script>
-        <script src="{{ BASE_PATH }}/assets/js/form-validator.min.js"></script>	  
-        <script src="{{ BASE_PATH }}/assets/js/contact-form-script.js"></script>
-        <script src="{{ BASE_PATH }}/assets/js/jasny-bootstrap.min.js"></script>
-        <script src="{{ BASE_PATH }}/assets/js/jquery.mixitup.js"></script>	  
-        <script src="{{ BASE_PATH }}/assets/js/jquery.countTo.js"></script>
-        <script src="{{ BASE_PATH }}/assets/js/jquery.easing.min.js"></script>
-        <script src="{{ BASE_PATH }}/assets/js/main.js"></script>	
-        <script src="{{ BASE_PATH }}/assets/js/scrolling-nav.js"></script>
-        <script src="{{ BASE_PATH }}/assets/js/tether.min.js"></script>
-        <script src="{{ BASE_PATH }}/assets/js/bootstrap.min.js"></script>
+        <script src="{{ "/assets/js/jquery.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/jquery.nav.js" | relative_url }}"></script>
+	      <script src="{{ "/assets/js/owl.carousel.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/form-validator.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/contact-form-script.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/jasny-bootstrap.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/jquery.mixitup.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/jquery.countTo.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/jquery.easing.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/scrolling-nav.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/tether.min.js" | relative_url }}"></script>
+        <script src="{{ "/assets/js/bootstrap.min.js" | relative_url }}"></script>
 
 	<!-- ********************* Grads SCRIPTING ******************************-->
 	<!--Custom script loaded by children page-->
-	{% if page.js %}<script src="{{ BASE_PATH }}/assets/js/{{ page.js }}"></script>{% endif %}
+	{% if page.js %}<script src="{{ "/assets/js/" | append: page.js  | relative_url }}"></script>{% endif %}
 
 
-	  
+
   </body>
 </html>

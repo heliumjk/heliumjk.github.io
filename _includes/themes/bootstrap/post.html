@@ -9,20 +9,18 @@
                           {{ page.tagline }}
                 </p>{% endif %}
                 <a href="#post" class="page-scroll btn btn-lg btn-default-filled">Read Post</a>
-                <div class="mb-60"></div>                      
+                <div class="mb-60"></div>
               </div>
             </div>
             <div class="col-xs-12 col-sm-6">
-              {% if page.img %}<figure>
-                <img src="{{ BASE_PATH }}/assets/images/{{ page.img }}" alt="">
+              {% if page.img %}
+              <figure>
+                <img src="{{ "/assets/images/" | append: page.img | relative_url }}" alt="">
               </figure>{% endif %}
             </div>
           </div>
         </div>
       </div>
-
-
-
 <!-- Post content+sidebar -->
 
 <div class="mb-60"></div>
@@ -32,18 +30,15 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-9">
-          {% include ads-block.html %}
           <div class="mb-60"></div>
            {{ content }}
           <div class="mb-60"></div>
-          {% include ads-block.html %}
-          <div class="mb-60"></div> 
-          {% include JB/comments %}                    
-        </div>                    
+          <div class="mb-60"></div>
+          {% include JB/comments %}
+        </div>
         <div class="col-sm-12 col-md-3">
           {% include side-bar.html %}
         </div>
       </div>
      </div>
    </section>
-

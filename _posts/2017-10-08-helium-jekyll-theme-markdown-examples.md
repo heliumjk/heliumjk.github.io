@@ -7,19 +7,19 @@ tags:
 - code
 - markdown
 img: markdown-samples.jpg
-img2: 
-img3: 
+img2:
+img3:
 author: Antonio Trento
-title2: 
-title3: 
-css: 
-js: 
-bgcolor: 
+title2:
+title3:
+css:
+js:
+bgcolor:
 keywords: html, css, markdown, jekyll, docs, jekyllthemes, theme
 canonical: https://fullit.github.io
 
 ---
-{% include JB/setup %} Markdown samples usefull when you start write your blog 🎉 🎆. TESTE
+ Markdown samples usefull when you start write your blog 🎉 🎆. TESTE
 
 <!--more-->
 
@@ -49,16 +49,16 @@ Test paragraph with **bg-warning** custom class.
 
     {:.bg-danger}
     Test paragraph with **bg-danger** custom class.
-    
+
     {:.bg-success}
     Test paragraph with **bg-success** custom class.
-    
+
     {:.bg-info}
     Test paragraph with **bg-info** custom class.
-    
+
     {:.bg-warning}
     Test paragraph with **bg-warning** custom class.
-    
+
 
 ***
 
@@ -136,7 +136,7 @@ This is **not** in bold.
 
 #### in HTML
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Po16lsLfpMk" 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Po16lsLfpMk"
     frameborder="0" allowfullscreen></iframe>
 
 ***
@@ -184,19 +184,19 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
 #### in markdown
 
     {:.massage-box .alert-success}
-    **Test Message alert success** 
+    **Test Message alert success**
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
-    
+
     {:.massage-box .alert-info}
-    **Test Message alert info** 
+    **Test Message alert info**
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
-    
+
     {:.massage-box .alert-danger}
-    **Test Message alert danger** 
+    **Test Message alert danger**
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
-    
+
     {:.massage-box .alert-warning}
-    **Test Message alert warning** 
+    **Test Message alert warning**
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a in, ullam.
 
 ***
@@ -230,17 +230,17 @@ Danger
 
     {:.label .label-default-filled}
     Default
-    
+
     {:.label .label-success-filled}
     Success
-    
+
     {:.label .label-info-filled}
     Info
-    
+
     {:.label .label-warning-filled}
     Warning
-    
-    {:.label .label-danger-filled} 
+
+    {:.label .label-danger-filled}
     Danger
 
 ***
@@ -248,7 +248,7 @@ Danger
 # Class nesting samples
 
     *   list item
-    
+
     *   list item {.classA}
         {.classB}
     {.classC}
@@ -276,7 +276,7 @@ When you compare the code for tables, the ability to add a class via markdown at
 #### in markdown
 
     {.table .table-striped}
-    Some | Basic | Table 
+    Some | Basic | Table
     -----|-------|------
     a    | b     | c
     d    | e     | f
@@ -289,9 +289,6 @@ When you compare the code for tables, the ability to add a class via markdown at
 
 #### It autoresize in base of the container dimensions, avaible if you edit _confi.yaml file
 
-<div>
-{% include ads-block.html %}
-</div>
 
 ***
 
@@ -301,7 +298,6 @@ When you compare the code for tables, the ability to add a class via markdown at
 
     <div>
 
-{% include ads-block.html %}
 
     <div>
 
@@ -318,7 +314,7 @@ When you compare the code for tables, the ability to add a class via markdown at
 (Being a reprint from the reminiscences of John H. Watson, M.D., late of the Army
 Medical Department.)
 
-1. 
+1.
 
    ### Mr. Sherlock Holmes
 
@@ -333,7 +329,7 @@ Medical Department.)
    it had nothing but misfortune and disaster. I was removed from my
    brigade and attached to the Berkshires, with whom I served at
    the fatal battle of Maiwand. There I was struck on the \[...\]            {.randomClass}
-2. 
+2.
 
    ### More content
 
@@ -350,34 +346,34 @@ Medical Department.)
 #### in markdown
 
     # A Study In Scarlet
-    
+
     ## PART I.
-    
-    (Being a reprint from the reminiscences of John H. Watson, M.D., late of the Army 
+
+    (Being a reprint from the reminiscences of John H. Watson, M.D., late of the Army
     Medical Department.)
-    
+
     1.  ### Mr. Sherlock Holmes
-    
-        In the year 1878 I took my degree of Doctor of Medicine of the 
-        University of London, and proceeded to Netley to go through 
-        the course prescribed for surgeons in the army. Having completed 
-        my studies there, I was duly attached to the Fifth Northumberland 
-        Fusiliers as Assistant Surgeon. The regiment was stationed in 
+
+        In the year 1878 I took my degree of Doctor of Medicine of the
+        University of London, and proceeded to Netley to go through
+        the course prescribed for surgeons in the army. Having completed
+        my studies there, I was duly attached to the Fifth Northumberland
+        Fusiliers as Assistant Surgeon. The regiment was stationed in
         India at the time, and before I could join it, the second [...]
-    
-        The campaign brought honours and promotion to many, but for me 
-        it had nothing but misfortune and disaster. I was removed from my 
-        brigade and attached to the Berkshires, with whom I served at 
+
+        The campaign brought honours and promotion to many, but for me
+        it had nothing but misfortune and disaster. I was removed from my
+        brigade and attached to the Berkshires, with whom I served at
         the fatal battle of Maiwand. There I was struck on the [...]            {.randomClass}
-    
+
     2.  ### More content
-    
-        Worn with pain, and weak from the prolonged hardships which 
-        I had undergone, I was removed, with a great train of wounded 
-        sufferers, to the base hospital at Peshawar. Here I rallied, and had 
+
+        Worn with pain, and weak from the prolonged hardships which
+        I had undergone, I was removed, with a great train of wounded
+        sufferers, to the base hospital at Peshawar. Here I rallied, and had
         already improved so far as to be able to walk about the [...]
     p.s. I tend to agree on the adding classes/IDs to every possible element to be overkill.
-    
+
 
 ***
 
@@ -404,7 +400,7 @@ Inline-style links use parentheses immediately after the link text. For example:
 
     This is an [example link](http://example.com/).
     Output:
-    
+
     <p>This is an <a href="http://example.com/">
     example link</a>.</p>
 
@@ -421,7 +417,7 @@ Reference-style links allow you to refer to your links by names, which you defin
 
     I get 10 times more traffic from [Google][1] than from
     [Yahoo][2] or [MSN][3].
-    
+
     [1]: http://google.com/        "Google"
     [2]: http://search.yahoo.com/  "Yahoo Search"
     [3]: http://search.msn.com/    "MSN Search"
@@ -437,7 +433,7 @@ The title attribute is optional. Link names may contain letters, numbers and spa
 
     I start my morning with a cup of coffee and
     [The New York Times][NY Times].
-    
+
     [ny times]: http://www.nytimes.com
 
 Output:
@@ -456,7 +452,7 @@ Inline (titles are optional):
 Reference-style:
 
     ![alt text][id]
-    
+
     [id]: /path/to/img.jpg "Title"
 
 Both of the above examples produce the same output:
@@ -468,8 +464,8 @@ Both of the above examples produce the same output:
 In a regular paragraph, you can create code span by wrapping text in backtick quotes. Any ampersands (&) and angle brackets (< or >) will automatically be translated into HTML entities. This makes it easy to use Markdown to write about HTML example code:
 
     I strongly recommend against using any `<blink>` tags.
-    
-    
+
+
     I wish SmartyPants used named entities like `&mdash;`
     instead of decimal-encoded entites like `&#8212;`.
 
@@ -477,7 +473,7 @@ Output:
 
     <p>I strongly recommend against using any
     <code>&lt;blink&gt;</code> tags.</p>
-    
+
     <p>I wish SmartyPants used named entities like
     <code>&amp;mdash;</code> instead of decimal-encoded
     entites like <code>&amp;#8212;</code>.</p>
@@ -487,7 +483,7 @@ Output:
 
     If you want your page to validate under XHTML 1.0 Strict,
     you've got to put paragraph tags in your blockquotes:
-    
+
         <blockquote>
             <p>For example.</p>
         </blockquote>
@@ -496,7 +492,7 @@ Output:
 
     <p>If you want your page to validate under XHTML 1.0 Strict,
     you've got to put paragraph tags in your blockquotes:</p>
-    
+
     <pre><code>&lt;blockquote&gt;
         &lt;p&gt;For example.&lt;/p&gt;
     &lt;/blockquote&gt;

@@ -6,38 +6,31 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://estantef.github.io
-baseurl: "/estantef.github.io"
+url: ''
+baseurl: '/atmosphere_homepage/'
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-
-#Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 2973388149
-data-ad-client: ca-pub-9204963049240271
-google_ad_client: ca-pub-9204963049240271
-
 post_limit: 5
 
 title : Atmosphere Data Technologies
 tagline: we breathe data
 description: A melhor plataforma de inteligência de mercado
 lang: pt_BR
-author: 
+author:
   name: Fred Estante
   site: www.atmosphere.tech
   image: social-image.png
   email: fred@atmosphere.tech
-  github: 
-  twitter: 
-  facebook: 
-  linkedin: 
-  instagram: 
+  github:
+  twitter:
+  facebook:
+  linkedin:
+  instagram:
 
-twitter_username: 
+twitter_username:
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
-# Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
 # Else if you are pushing to username.github.io, replace with your username.
@@ -49,44 +42,6 @@ production_url : https://estantef.github.io/atmosphere_homepage/
 #
 JB :
   version : 0.3.0
-
-  # All links will be namespaced by BASE_PATH if defined.
-  # Links in your website should always be prefixed with {{BASE_PATH}}
-  # however this value will be dynamically changed depending on your deployment situation.
-  #
-  # CNAME (http://yourcustomdomain.com)
-  #   DO NOT SET BASE_PATH
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Project Pages (http://username.github.io/project-name)
-  #
-  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
-  #
-  # CAUTION:
-  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
-  #   - Only the following values are falsy: ["", null, false]
-  #   - When setting BASE_PATH it must be a valid url.
-  #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : /atmosphere_homepage/
-
-  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
-  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
-  #
-  # Override this by defining an absolute path to assets here.
-  # ex:
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
-  #   /assets
-  #
-  ASSET_PATH : https://estantef.github.io/atmosphere_homepage/assets/themes/bootstrap
-
-  # These paths are to the main pages Jekyll-Bootstrap ships with.
-  # Some JB helpers refer to these paths; change them here if needed.
-  #
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
@@ -99,12 +54,12 @@ JB :
   #
   comments :
     provider : disqus
-    disqus : 
+    disqus :
       short_name : jeky-new-age
     #livefyre :
-    #  site_id : 
+    #  site_id :
     #intensedebate :
-    #  account : 
+    #  account :
     #facebook :
     #  appid :
       num_posts: 5
@@ -145,7 +100,7 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -162,4 +117,3 @@ JB :
   - docker-compose.yml
   - Rakefile
  #exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
- 

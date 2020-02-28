@@ -13,18 +13,18 @@ keywords: bootstrap4, UI kit, jekyll
 canonical: https://heliumjk.github.io/blog
 
 ---
-{% include JB/setup %}
+
 
 
 {% for post in site.posts %}
 	  <div class="blog-block post-content-area">
 	   {% if post.img %}	  
-            <img src="{{ BASE_PATH }}/assets/images/{{ post.img }}" alt="{{ post.title }} image">
+            <img src="{{ "/assets/images/{{ post.img }}" alt="{{ post.title }} image" | relative_url }}"
 	   {% endif %}	  
             <div class="blog-post">
-              <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+              <h3><a href="{{  post.url  | relative_url }}">{{ post.title }}</a></h3>
 	      <p>{{ post.excerpt }}</p>
-              <a class="btn btn-common" href="{{ BASE_PATH }}{{ post.url }}">Leia</a>
+              <a class="btn btn-common" href="{{  post.url  | relative_url }}">Leia</a>
             </div>
           </div>
 	  <div class="mb-60"></div>

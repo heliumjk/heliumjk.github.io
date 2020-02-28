@@ -1,15 +1,14 @@
-          <div class="blog-block about-sidebar-widget">
-            <img src="{{ BASE_PATH }}/assets/images/{{ site.author.image }}">
-            <h4><a href="{{ site.author.site }}">{{ site.author.name }}</a></h4>
-            <p>{{ site.author.description }}</p>
-            {% include social-block.html %}
-          </div>
+<div class="blog-block about-sidebar-widget">
+  <img src="{{ " /assets/images/ " | append: site.author.image  | relative_url }}">
+  <h4><a href="{{ site.author.site }}">{{ site.author.name }}</a></h4>
+  <p>{{ site.author.description }}</p>
+  {% include social-block.html %}
+</div>
 
-          <div class="mb-60"></div>
-          
-          <div class="blog-block blog-posts-widget side-bar sticky-top">
-            <div class="widget-title">
-              <h4>Sponsor</h4>
-            </div>
-            {% include ads-block.html %}
-          <div>
+<div class="mb-60"></div>
+
+<div class="blog-block blog-posts-widget side-bar sticky-top">
+  <div class="widget-title">
+    <h4>Sponsor</h4>
+  </div>
+  <div>

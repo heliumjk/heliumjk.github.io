@@ -8,18 +8,18 @@
                             <div class="col-md-6">
                                 <div class="home_text">
                                     <h1 class="text-white">{{ page.title }}</h1>
-                                    {% if page.tagline %} <p class="text-white">{{ page.tagline }}</p>{% endif %}                                   
+                                    {% if page.tagline %} <p class="text-white">{{ page.tagline }}</p>{% endif %}
                                 </div>
 
                                 <div class="home_btns m-top-40">
                                     <a href="#blog" class="btn btn-danger m-top-20">Scopri di più</a>
-                                    
+
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="phone_one phone_attr1 text-center sm-m-top-50">
-                                    {% if page.img %}<img src="{{ BASE_PATH }}/assets/images/{{ page.img }}" alt="" />{% endif %}
+                                    {% if page.img %}<img src="{{ "/assets/images/" | append:  page.img  | relative_url }}" alt="" />{% endif %}
                                 </div>
                             </div>
 
@@ -38,7 +38,7 @@
     <br />
     <br />
 
- 
+
   <div id = "blog" class="container">
     {{ content }}
   </div>
