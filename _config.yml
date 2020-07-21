@@ -7,16 +7,16 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://heliumjk.github.io
-baseurl: "/heliumjk.github.io"
+url: https://edanisko.github.io
+baseurl: "/"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 2973388149
-data-ad-client: ca-pub-9204963049240271
-google_ad_client: ca-pub-9204963049240271
+# data-ad-slot: 2973388149
+# data-ad-client: ca-pub-9204963049240271
+# google_ad_client: ca-pub-9204963049240271
 
 post_limit: 5
 
@@ -24,18 +24,18 @@ post_limit: 5
 title : Helium Jekyll
 tagline: Bootstrap 4 UI kit for jekyll
 author : 
-  name : Antonio Trento
-  site: https://lantoniotrento.github.io
+  name : Ed Anisko
+  site: https://edanisko.github.io
   description : I&#39;m a web master interested in communication applied to web marketing.
   image : social-image.png
-  email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
-  facebook: lantoniotrento
-  linkedin: antoniotrento
+  email : ed.aniko@gmail.com
+  github : edanisko
+  twitter : eddieanisko
+  facebook: eddieainla
+  linkedin: ed-anisko
   instagram: lantoniotrento
-  pinterest: antoniotrento
-  feedburner : 
+  #pinterest: antoniotrento
+  #feedburner : 
 
 twitter_username: lantoniotrento
 # The production_url is only used when full-domain names are needed
@@ -46,7 +46,7 @@ twitter_username: lantoniotrento
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://heliumjk.github.io
+production_url : https://edanisko.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -75,7 +75,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://heliumjk.github.io
+  BASE_PATH : https://edanisko.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -85,7 +85,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : https://heliumjk.github.io/assets/themes/bootstrap
+  ASSET_PATH : https://edanisko.github.io/assets/themes/bootstrap
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
@@ -118,17 +118,17 @@ JB :
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #
-  analytics :
-    provider : google
-    google :
-        tracking_id : 'UA-94080000-1'
-    getclicky :
-      site_id :
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+  # analytics :
+  #   provider : google
+  #   google :
+  #       tracking_id : 'UA-94080000-1'
+  #   getclicky :
+  #     site_id :
+  #   mixpanel :
+  #       token : '_MIXPANEL_TOKEN_'
+  #   piwik :
+  #       baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+  #       idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
