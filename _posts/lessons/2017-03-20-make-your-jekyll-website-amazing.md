@@ -7,7 +7,7 @@ img : helium-jekyll.jpg
 img-mobile : 
 img2 : 
 img3 : 
-author : Antonio Trento
+author : Ed Anisko
 title2 : Improve the desing of your blog
 title3 : Make it a full of slides
 css: 

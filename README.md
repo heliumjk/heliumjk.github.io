@@ -90,7 +90,7 @@ All parts of helium Jekyll theme are free to use and abuse under the open-source
 - [ ] Create hightlight style for code parts
 
 ## Help out
-Im [Antonio Trento](https://antoniotrento.github.io) and I'm looking for funds to be able to open my IT development company with many on-site projects, unfortunately they are hardly feasible without collaboration and an economic base.
+Im [Ed Anisko](https://antoniotrento.github.io) and I'm looking for funds to be able to open my IT development company with many on-site projects, unfortunately they are hardly feasible without collaboration and an economic base.
 
 If you want to contribute you can donate ethereum or bitcoin:
 - [Donate Bitcoins](https://blockchain.info/address/1B9rDoFCndbsKXL9QiefUcUGUbJH9Y1i6M)

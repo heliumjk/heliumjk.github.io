@@ -6,7 +6,7 @@ tags : [jekyll, code]
 img : syntax-hightlight.jpg
 img2 : 
 img3 : 
-author : Antonio Trento
+author : Ed Anisko
 title2 : 
 title3 : 
 css: 

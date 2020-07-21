@@ -7,7 +7,7 @@ img : helloworld.jpg
 img-mobile : 
 img2 : 
 img3 : 
-author : Antonio Trento
+author : Ed Anisko
 title2 : 
 title3 : 
 css: 

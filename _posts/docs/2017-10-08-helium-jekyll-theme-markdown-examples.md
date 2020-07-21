@@ -6,7 +6,7 @@ tags : [jekyll, code, markdown]
 img : markdown-samples.jpg
 img2 : 
 img3 : 
-author : Antonio Trento
+author : Ed Anisko
 title2 : 
 title3 : 
 css: 

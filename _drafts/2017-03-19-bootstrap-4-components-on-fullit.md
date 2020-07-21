@@ -7,7 +7,7 @@ img : 3.jpg
 img-mobile : 3-mobile.jpg
 img2 : 
 img3 : 
-author : Antonio Trento
+author : Ed Anisko
 title2 : New FullIt Theme
 title3 : Created for jekyll
 css: 
