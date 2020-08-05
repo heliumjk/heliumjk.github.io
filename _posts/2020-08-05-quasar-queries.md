@@ -45,4 +45,58 @@ $ quasar new boot alpaca-api
 
 This creates /boot/alpaca-api.js
 
+```js
+const Alpaca = require('@alpacahq/alpaca-trade-api')
+
+const alpacaInstance = new Alpaca({
+  keyId: 'XXXXXXXXXXXXXXXXX',
+  secretKey: 'XXXXXXXXXXXXXXXXXX',
+  paper: true,
+  usePolygon: false
+})
+
+export default async ({ Vue }) => {
+  Vue.prototype.$alpaca = alpacaInstance
+}
+
+export { alpacaInstance }
+
+```
+
+in /quasar.conf.js add alpaca-api to the boot array:
+```
+    // app boot file (/src/boot)
+    // --> boot files are part of "main.js"
+    // https://quasar.dev/quasar-cli/boot-files
+    boot: [
+      'alpaca-api',
+      'axios'
+    ],
+
+```
+
+
+Then change /src/App.vue
+```js
+<template>
+  <div id="q-app">
+    <router-view />
+  </div>
+</template>
+<script>
+
+import { alpacaInstance } from 'boot/alpaca-api'
+
+export default {
+  name: 'App',
+  mounted () {
+    console.log(alpacaInstance.getAccount())
+  }
+}
+</script>
+```
+
+
+
+Looks like its working.
 
