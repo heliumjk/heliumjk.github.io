@@ -21,23 +21,23 @@ google_ad_client:
 post_limit: 5
 
 
-title : Helium Jekyll
-tagline: Bootstrap 4 UI kit for jekyll
+title : Mizzou SCANlab
+tagline: 
 author : 
-  name : Antonio Trento
-  site: https://lantoniotrento.github.io
-  description : I&#39;m a web master interested in communication applied to web marketing.
-  image : social-image.png
-  email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
-  facebook: lantoniotrento
-  linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
+  name : Sandie Keerstock
+  site: 
+  description : 
+  image : 
+  email : 
+  github : https://github.com/mizzouscanlab
+  twitter : 
+  facebook: 
+  linkedin: 
+  instagram: 
+  pinterest: 
   feedburner : 
 
-twitter_username: lantoniotrento
+twitter_username: 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
