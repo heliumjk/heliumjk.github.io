@@ -7,8 +7,8 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://mizzouscanlab.github.io/heliumjk/
-baseurl: "/mizzouscanlab.github.io/heliumjk/"
+url: https://mizzouscanlab.github.io/
+baseurl: "https://mizzouscanlab.github.io/"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
@@ -75,7 +75,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://mizzouscanlab.github.io/heliumjk/
+  BASE_PATH : https://mizzouscanlab.github.io/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -85,7 +85,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : https://heliumjk.github.io/assets/themes/bootstrap
+  ASSET_PATH : https://mizzouscanlab.github.io/assets/themes/bootstrap
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
