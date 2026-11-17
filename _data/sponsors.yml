@@ -10,6 +10,12 @@
   title: "Jetbrains"
   text: "Jetbrain's create pro tools created with developers, teams and businesses in mind. Our products are technology agnostic and support a mix of languages and other tools that your team and project may be using now or tomorrow. If you attend Dot Net Liverpools monthly meet-up you will have the chance to win a 12 months licence to any of Jetbrains products."
 
+- url: https://www.ecoonline.com/
+  img: /assets/images/sponsors/EcoOnline.png
+  alt: "EcoOnline"
+  title: "EcoOnline"
+  text: "EcoOnline is a safety and sustainability suite to protect your people."
+
 - url: https://www.acorninsure.co.uk/
   enabled: false
   img: /assets/images/sponsors/acorn_insurance_logo_no_background.png
